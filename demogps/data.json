@@ -1,0 +1,70 @@
+{
+    "Version": 1,
+    "Key": "337169",
+    "Type": "City",
+    "Rank": 55,
+    "LocalizedName": "Mountain View",
+    "EnglishName": "Mountain View",
+    "PrimaryPostalCode": "94041",
+    "Region": {
+      "ID": "NAM",
+      "LocalizedName": "North America",
+      "EnglishName": "North America"
+    },
+    "Country": {
+      "ID": "US",
+      "LocalizedName": "United States",
+      "EnglishName": "United States"
+    },
+    "AdministrativeArea": {
+      "ID": "CA",
+      "LocalizedName": "California",
+      "EnglishName": "California",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "US"
+    },
+    "TimeZone": {
+      "Code": "PDT",
+      "Name": "America/Los_Angeles",
+      "GmtOffset": -7,
+      "IsDaylightSaving": true,
+      "NextOffsetChange": "2023-11-05T09:00:00Z"
+    },
+    "GeoPosition": {
+      "Latitude": 37.386,
+      "Longitude": -122.084,
+      "Elevation": {
+        "Metric": {
+          "Value": 27,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 88,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Santa Clara",
+        "EnglishName": "Santa Clara"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "DailyAirQualityForecast",
+      "DailyPollenForecast",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  }
